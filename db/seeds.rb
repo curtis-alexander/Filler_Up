@@ -13,3 +13,5 @@ User.create!(first_name: "Rachel", last_name: "Briggs", email: "rachel@briggs.co
 User.create!(first_name: "Steve", last_name: "Saleen", email: "saleen@racing.com", phone_number: "6085559959", password: "password")
 User.create!(first_name: "Richard", last_name: "Rawls", email: "gas@monkey.com", phone_number: "2815552252", password: "password")
 User.create!(first_name: "Brian", last_name: "Rice", email: "brian@actualize.com", phone_number: "5555555555", password: "password")
+
+Vehicle.create!()
