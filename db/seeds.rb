@@ -33,6 +33,6 @@ Vehicle.create!(user_id: 6, make: "Ferrari", model: "458", color: "Red", plate: 
 Vehicle.create!(user_id: 6, make: "Ford", model: "GT", color: "Black", plate: "TX4U777")
 Vehicle.create!(user_id: 7, make: "McLaren", model: "F1", color: "Grey", plate: "ABR2887")
 
-Products.create!(octane: "87", price_per_gallon: 3.29)
-Products.create!(octane: "91", price_per_gallon: 3.99)
-Products.create!(octane: "E85", price_per_gallon: 3.85)
+Product.create!(octane: "87", price_per_gallon: 3.29)
+Product.create!(octane: "91", price_per_gallon: 3.99)
+Product.create!(octane: "E85", price_per_gallon: 3.85)
