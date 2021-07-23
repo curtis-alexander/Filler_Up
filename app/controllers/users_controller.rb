@@ -7,7 +7,7 @@ class UsersController < ApplicationController
       phone_number: params[:phone_number],
       password: params[:password],
     )
-    user.save!
+    user.save
     render json: user.as_json
   end
 end

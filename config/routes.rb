@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get "/products" => "products#index"
 
   post "/users" => "users#create"
+
+  get "/vehicles" => "vehicles#index"
 end
