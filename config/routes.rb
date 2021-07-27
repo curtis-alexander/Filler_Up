@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   get "/vehicles" => "vehicles#index"
   post "/vehicles" => "vehicles#create"
+
+  get "/orders" => "orders#index"
 end
