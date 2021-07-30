@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   post "/vehicles" => "vehicles#create"
 
   get "/orders" => "orders#index"
+  post "/orders" => "orders#create"
 
   post "/sessions" => "sessions#create"
 end
