@@ -6,12 +6,12 @@ class OrdersController < ApplicationController
 
   def create
     order = Order.new(
-      user_id: current_user[:current_user],
+      user_id: params[:user_id],
       product_id: params[:product_id],
       gallon_amount: params[:gallon_amount],
       dollar_amount: params[:dollar_amount],
-      total: params[:total],
       location: params[:location],
+      vehicle_id: params[:vehicle_id],
     )
     order.save
     render json: order.as_json
