@@ -6,7 +6,7 @@ class OrdersController < ApplicationController
 
   def create
     order = Order.new(
-      user_id: params[:user_id],
+      user_id: current_user.id,
       product_id: params[:product_id],
       gallon_amount: params[:gallon_amount],
       dollar_amount: params[:dollar_amount],
